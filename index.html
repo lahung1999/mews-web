@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mew S</title>
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.google.com/share?selection.family=Roboto:ital,wght@0,300;0,400;0,700;1,500">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    
+    <div class="app">
+        <div class="header-tablet-mobile hide-on-pc">
+            <div onclick="menumobile()" class="menubar">
+                <i class="menubar-icon fas fa-bars"></i>
+            </div>
+            <div class="logo-mobile">
+                <img src="//bizweb.dktcdn.net/thumb/small/100/408/016/themes/792975/assets/logo.png?1629712986782" alt="" class="logo-mobile-img">
+            </div>
+        </div>
+        <div class="col-menu">
+            <div class="menu-logo hide-on-mobile-tablet">
+                <div class="menu-link">
+                    <img src="//bizweb.dktcdn.net/100/408/016/themes/792975/assets/logo.png?1629712986782" alt="Logo" class="menu-img">
+                </div>
+            </div>
+            <div class="menu-search">
+                <div class="search-form">
+                    <input type="text" class="search-input" placeholder="Từ khóa...">
+                    <i class="search-icon fas fa-search"></i>
+                </div>
+            </div>
+
+
+            <div class="menu-nav">
+                <ul class="nav-list">
+
+                    <li class="nav-item">
+                        <a href="" class="nav-link nav-link--active">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Giới thiệu</a>
+                    </li>
+    
+                    
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Sản phẩm</a>
+                        <i onclick="dropdown()" class="nav-icon fas fa-caret-down"></i>
+                        <div class="nav-child">
+                            <a href="" class="nav-sub-link">
+                                Sản phẩm nổi bật
+                            </a><br>
+                            <i onclick="dropdown1()" class="nav-sub-icon fas fa-caret-down"></i>
+                            <div class="nav-sub-child">
+                                <a href="" class="sub-child-link">VinFast</a><br/>
+                            
+                                <a href="" class="sub-child-link">Honda</a><br/>
+                            
+                                <a href="" class="sub-child-link">Toyota</a><br/>
+                        
+                                <a href="" class="sub-child-link">Ford</a><br/>
+                            
+                            </div>
+                            
+                            <a href="" class="nav-sub-link">Sản phẩm khuyến mãi</a><br/>
+                        
+                            <a href="" class="nav-sub-link">Sản phẩm bán chạy</a><br/>
+                    
+                            <a href="" class="nav-sub-link">Phụ kiện xe</a><br/>
+                            
+                        </div>
+                        
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Tin tức</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Sự kiện</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Hệ thống cửa hàng</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navigation-bottom">
+                <div class="nav-bottom">
+                    <a href="" class="nav-bottom-btn">Đăng nhập</a>
+                
+                    <a href="" class="nav-bottom-cart">
+                        <i class="nav-cart-icon fas fa-cart-plus"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-body blur-col-body">
+            <div class="content">
+                <div class="grid">
+                    <div class="row no-gutters content-slide">
+                        <div class="col no-gutters l-12 m-12 c-12">
+                            <img class="mySlides" src="https://bizweb.dktcdn.net/100/408/016/themes/792975/assets/slide-img1.png?1629712986782" >
+                            <img class="mySlides" src="https://bizweb.dktcdn.net/100/408/016/themes/792975/assets/slide-img2.png?1629712986782">
+                            
+                            <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%"></div>
+                        </div>
+                    </div>
+
+                    <div class="row no-gutters content-test">
+                        <div class="col l-3 m-6 c-12">
+                            <div class="test-item">
+                                <div class="test-img">
+                                    <img src="https://bizweb.dktcdn.net/100/408/016/themes/792975/assets/icon_s_1.jpg?1629712986782" alt="" class="item-img">
+                                </div>
+                                <div class="test-text">
+                                    <b class="text-heading">Vị thế của công ty</b>
+                                    <p class="text-page">Với nhiều năm kinh nghiệm trong ngành du lịch và cho thuê xe ô tô</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-12">
+                            <div class="test-item">
+                                <div class="test-img">
+                                    <img src="https://bizweb.dktcdn.net/100/408/016/themes/792975/assets/icon_s_2.jpg?1629712986782" alt="" class="item-img">
+                                </div>
+                                <div class="test-text">
+                                    <b class="text-heading">Có mặt khắp nơi</b>
+                                    <p class="text-page">Showroom có mặt tại Hà Nội, Hải Phòng cùng 16 tỉnh thành khác</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-12">
+                            <div class="test-item">
+                                <div class="test-img">
+                                    <img src="https://bizweb.dktcdn.net/100/408/016/themes/792975/assets/icon_s_3.jpg?1629712986782" alt="" class="item-img">
+                                </div>
+                                <div class="test-text">
+                                    <b class="text-heading">Phục vụ chuyên nghiệp</b>
+                                    <p class="text-page">Đội ngũ tư vấn chuyên nghiệp, tận tình</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-12">
+                            <div class="test-item">
+                                <div class="test-img">
+                                    <img src="https://bizweb.dktcdn.net/100/408/016/themes/792975/assets/icon_s_4.jpg?1629712986782" alt="" class="item-img">
+                                </div>
+                                <div class="test-text">
+                                    <b class="text-heading">Quà tặng hấp dẫn</b>
+                                    <p class="text-page">Ưu đãi cực khủng nhân dịp Tết Tân Sửu</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row no-gutters content-slogan">
+                        <div class="col no-gutters l-12 m-12 c-12">
+                            <div class="slogan-heading">Về Mew S</div>
+                            <div class="slogan-content">
+                                Mang xứ mệnh là đem đến các sản phẩm tốt nhất cho khách hàng trong lĩnh vực cung cấp các dòng ô tô cao cấp, chúng tôi mang đến bạn các dịch vụ không thể hấp hấp dẫn hơn.
+                                <br>
+                                Mew-S thành lập từ 2015 và không ngừng phát triển mạng lưới showroom trên khắp Việt Nam.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row no-gutters product">
+                        <div class="col l-12 m-12 c-12">
+                            <h2 class="product-heading">
+                                <a href="" class="product-heading-link">Sản phẩm nổi bật</a>
+                            </h2>
+                        </div>
+                        <div class="col l-3 m-6 c-12">
+                            <div class="product-item">
+                                <a href="" class="product-item-link">
+                                    <div class="product-item__top">
+                                        <img src="//bizweb.dktcdn.net/thumb/large/100/408/016/products/12-9153c15e-9d3a-46a6-8e53-fb812800872f.jpg?v=1608964435003" alt="" class="product-item-img">
+                                        <div class="overlay"></div>
+                                    </div>
+                                </a>
+                                <div class="product-item-info">
+                                    <h3 class="item-name">
+                                        <a href="" class="item-name-link">Honda CRV-E</a>
+                                    </h3>
+                                    <div class="item-price">
+                                        <span class="regular-price">998.000.000₫</span>
+                                    </div>
+                                    <div class="item-info">
+                                        <i class="right-icon"></i>
+                                        Chi tiết
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-12">
+                            <div class="product-item">
+                                <a href="" class="product-item-link">
+                                    <div class="product-item__top">
+                                        <img src="//bizweb.dktcdn.net/thumb/large/100/408/016/products/sp1-8.jpg?v=1608717876420" alt="" class="product-item-img">
+                                        <div class="overlay"></div>
+                                    </div>
+                                </a>
+                                <div class="product-item-info">
+                                    <h3 class="item-name">
+                                        <a href="" class="item-name-link">BMW i8</a>
+                                    </h3>
+                                    <div class="item-price">
+                                        <span class="regular-price">7.000.000.000₫</span>
+                                    </div>
+                                    <div class="item-info">
+                                        <i class="right-icon"></i>
+                                        Chi tiết
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-12">
+                            <div class="product-item">
+                                <a href="" class="product-item-link">
+                                    <div class="product-item__top">
+                                        <img src="//bizweb.dktcdn.net/thumb/large/100/408/016/products/6.jpg?v=1608964406520" alt="" class="product-item-img">
+                                        <div class="overlay"></div>
+                                    </div>
+                                </a>
+                                <div class="product-item-info">
+                                    <h3 class="item-name">
+                                        <a href="" class="item-name-link">Honda HR-V-L</a>
+                                    </h3>
+                                    <div class="item-price">
+                                        <span class="regular-price">400.000.000₫</span>
+                                    </div>
+                                    <div class="item-info">
+                                        <i class="right-icon"></i>
+                                        Chi tiết
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-12">
+                            <div class="product-item">
+                                <a href="" class="product-item-link">
+                                    <div class="product-item__top">
+                                        <img src="//bizweb.dktcdn.net/thumb/large/100/408/016/products/7.jpg?v=1608964419980" alt="" class="product-item-img">
+                                        <div class="overlay"></div>
+                                    </div>
+                                </a>
+                                <div class="product-item-info">
+                                    <h3 class="item-name">
+                                        <a href="" class="item-name-link">Honda Accord</a>
+                                    </h3>
+                                    <div class="item-price">
+                                        <span class="regular-price">1.328.000.000₫</span>
+                                    </div>
+                                    <div class="item-info">
+                                        <i class="right-icon"></i>
+                                        Chi tiết
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-12">
+                            <div class="product-item">
+                                <a href="" class="product-item-link">
+                                    <div class="product-item__top">
+                                        <img src="//bizweb.dktcdn.net/thumb/large/100/408/016/products/4-19a6f8cc-3726-4cec-8f2f-3707cb117cc8.jpg?v=1608964394287" alt="" class="product-item-img">
+                                        <div class="overlay"></div>
+                                    </div>
+                                </a>
+                                <div class="product-item-info">
+                                    <h3 class="item-name">
+                                        <a href="" class="item-name-link">Honda CIVIC-RS</a>
+                                    </h3>
+                                    <div class="item-price">
+                                        <span class="regular-price">929.000.000₫</span>
+                                    </div>
+                                    <div class="item-info">
+                                        <i class="right-icon"></i>
+                                        Chi tiết
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-12">
+                            <div class="product-item">
+                                <a href="" class="product-item-link">
+                                    <div class="product-item__top">
+                                        <img src="//bizweb.dktcdn.net/thumb/large/100/408/016/products/12-9153c15e-9d3a-46a6-8e53-fb812800872f.jpg?v=1608964435003" alt="" class="product-item-img">
+                                        <div class="overlay"></div>
+                                    </div>
+                                </a>
+                                <div class="product-item-info">
+                                    <h3 class="item-name">
+                                        <a href="" class="item-name-link">Honda CRV-E</a>
+                                    </h3>
+                                    <div class="item-price">
+                                        <span class="regular-price">998.000.000₫</span>
+                                    </div>
+                                    <div class="item-info">
+                                        <i class="right-icon"></i>
+                                        Chi tiết
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-12">
+                            <div class="product-item">
+                                <a href="" class="product-item-link">
+                                    <div class="product-item__top">
+                                        <img src="//bizweb.dktcdn.net/thumb/large/100/408/016/products/12-9153c15e-9d3a-46a6-8e53-fb812800872f.jpg?v=1608964435003" alt="" class="product-item-img">
+                                        <div class="overlay"></div>
+                                    </div>
+                                </a>
+                                <div class="product-item-info">
+                                    <h3 class="item-name">
+                                        <a href="" class="item-name-link">Honda CRV-E</a>
+                                    </h3>
+                                    <div class="item-price">
+                                        <span class="regular-price">998.000.000₫</span>
+                                    </div>
+                                    <div class="item-info">
+                                        <i class="right-icon"></i>
+                                        Chi tiết
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-12">
+                            <div class="product-item">
+                                <a href="" class="product-item-link">
+                                    <div class="product-item__top">
+                                        <img src="//bizweb.dktcdn.net/thumb/large/100/408/016/products/12-9153c15e-9d3a-46a6-8e53-fb812800872f.jpg?v=1608964435003" alt="" class="product-item-img">
+                                        <div class="overlay"></div>
+                                    </div>
+                                </a>
+                                <div class="product-item-info">
+                                    <h3 class="item-name">
+                                        <a href="" class="item-name-link">Honda CRV-E</a>
+                                    </h3>
+                                    <div class="item-price">
+                                        <span class="regular-price">998.000.000₫</span>
+                                    </div>
+                                    <div class="item-info">
+                                        <i class="right-icon"></i>
+                                        Chi tiết
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row no-gutters product">
+                        <div class="col l-12 m-12 c-12">
+                            <h2 class="product-heading">
+                                <a href="" class="product-heading-link">Sản phẩm bán chạy</a>
+                            </h2>
+                        </div>
+                        <div class="col l-3 m-6 c-12">
+                            <div class="product-item">
+                                <a href="" class="product-item-link">
+                                    <div class="product-item__top">
+                                        <img src="//bizweb.dktcdn.net/thumb/large/100/408/016/products/sp1-11.jpg?v=1608718424387" alt="" class="product-item-img">
+                                        <div class="overlay"></div>
+                                    </div>
+                                </a>
+                                <div class="product-item-info">
+                                    <div class="sale-label">
+                                        <span>-15%</span>
+                                    </div>
+                                    <h3 class="item-name">
+                                        <a href="" class="item-name-link">Ferrari Roma</a>
+                                    </h3>
+                                    <div class="item-price">
+                                        <span class="regular-price">850.000.000đ</span>
+                                        <del class="old-price">1.000.000.000đ</del>
+                                    </div>
+                                    <div class="item-info">
+                                        <i class="right-icon"></i>
+                                        Chi tiết
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-12">
+                            <div class="product-item">
+                                
+                                <a href="" class="product-item-link">
+                                    <div class="product-item__top">
+                                        <img src="//bizweb.dktcdn.net/thumb/large/100/408/016/products/sp1-19.jpg?v=1608718082187" alt="" class="product-item-img">
+                                        <div class="overlay"></div>
+                                    </div>
+                                </a>
+                                <div class="product-item-info">
+                                    <div class="sale-label">
+                                        <span>-15%</span>
+                                    </div>
+                                    <h3 class="item-name">
+                                        <a href="" class="item-name-link">Ford Ultra 201</a>
+                                    </h3>
+                                    <div class="item-price">
+                                        <span class="regular-price">7.200.000.000đ</span>
+                                        <del class="old-price">8.500.000.000đ</del>
+                                    </div>
+                                    <div class="item-info">
+                                        <i class="right-icon"></i>
+                                        Chi tiết
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-12">
+                            <div class="product-item">
+                                <a href="" class="product-item-link">
+                                    <div class="product-item__top">
+                                        <img src="//bizweb.dktcdn.net/thumb/large/100/408/016/products/sp1-16-2a5a58cc-8087-425b-8e28-fc003b8ca59c.jpg?v=1608718390373" alt="" class="product-item-img">
+                                        <div class="overlay"></div>
+                                    </div>
+                                </a>
+                                <div class="product-item-info">
+                                    <div class="sale-label">
+                                        <span>-10%</span>
+                                    </div>
+                                    <h3 class="item-name">
+                                        <a href="" class="item-name-link">Ferrari Monza SP1</a>
+                                    </h3>
+                                    <div class="item-price">
+                                        <span class="regular-price">1.850.000.000đ</span>
+                                        <del class="old-price">2.000.000.000đ</del>
+                                    </div>
+                                    <div class="item-info">
+                                        <i class="right-icon"></i>
+                                        Chi tiết
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-12">
+                            <div class="product-item">
+                                <a href="" class="product-item-link">
+                                    <div class="product-item__top">
+                                        <img src="//bizweb.dktcdn.net/thumb/large/100/408/016/products/sp1-18.jpg?v=1608718140740" alt="" class="product-item-img">
+                                        <div class="overlay"></div>
+                                    </div>
+                                </a>
+                                <div class="product-item-info">
+                                    <div class="sale-label">
+                                        <span>-14%</span>
+                                    </div>
+                                    <h3 class="item-name">
+                                        <a href="" class="item-name-link">Ferrari Roma</a>
+                                    </h3>
+                                    <div class="item-price">
+                                        <span class="regular-price">12.000.000.000đ</span>
+                                        <del class="old-price">14.000.000.000đ</del>
+                                    </div>
+                                    <div class="item-info">
+                                        <i class="right-icon"></i>
+                                        Chi tiết
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row no-gutters product">
+                        <div class="col l-6 m-12 c-12">
+                            <div class="banner">
+                                <a href="" class="banner-link">
+                                    <div class="banner-item">
+                                        <img src="//bizweb.dktcdn.net/100/408/016/themes/792975/assets/banner_1.jpg?1629712986782" alt="" class="banner-img">
+                                        <div class="overlay1"></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col l-6 m-12 c-12">
+                            <div class="banner">
+                                <a href="" class="banner-link">
+                                    <div class="banner-item">
+                                        <img src="//bizweb.dktcdn.net/100/408/016/themes/792975/assets/banner_2.jpg?1629712986782" alt="" class="banner-img">
+                                        <div class="overlay1"></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row no-gutters product">
+                        <div class="col l-12 m-12 c-12">
+                            <h2 class="product-heading">
+                                <a href="" class="product-heading-link">Tin tức - sự kiện</a>
+                            </h2>
+                        </div>
+                        <span style="margin-top: 24px;" class="col l-12"></span>
+                        <div class="col l-6 m-12 c-12">
+                            <div class="item-news">
+                                <div class="news">
+                                    <div class="news-item-img">
+                                        <a href="" class="news-img-link">
+                                            <div class="be-opa">
+                                                <img src="//bizweb.dktcdn.net/thumb/large/100/408/016/articles/kia-seltos-2020-oto-com-vn-5-3cb2.jpg?v=1608743141410" alt="" class="news-img">
+                                            </div>
+                                            <div class="overlay"></div>
+                                        </a>
+                                    </div>
+                                    <div class="text-news">
+                                        <h3 class="news-item-text">
+                                            <a href="" class="text-link">
+                                                Kia Seltos không còn khan hàng, khách nhận xe trước Tết hưởng trọn
+                                            </a>
+                                        </h3>
+                                        <span class="entry-date">24/12/2020</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6 m-12 c-12">
+                            <div class="item-news">
+                                <div class="news">
+                                    <div class="news-item-img">
+                                        <a href="" class="news-img-link">
+                                            <div class="be-opa">
+                                                <img src="//bizweb.dktcdn.net/thumb/large/100/408/016/articles/2019-vinfast-fadil-oto-com-vn-44-8f09.jpg?v=1607868450107" alt="" class="news-img">
+                                            </div>
+                                            <div class="overlay"></div>
+                                        </a>
+                                    </div>
+                                    <div class="text-news">
+                                        <h3 class="news-item-text">
+                                            <a href="" class="text-link">
+                                                Phân khúc xe hạng A tháng 11/2020: Fadil và Grand i10 cạnh tranh 'máu lửa'
+                                            </a>
+                                        </h3>
+                                        <span class="entry-date">13/12/2020</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6 m-12 c-12">
+                            <div class="item-news">
+                                <div class="news">
+                                    <div class="news-item-img">
+                                        <a href="" class="news-img-link">
+                                            <div class="be-opa">
+                                                <img src="//bizweb.dktcdn.net/thumb/large/100/408/016/articles/10-xe-ban-chay-thang-11-oto-com-2-9222.jpg?v=1607868270640" alt="" class="news-img">
+                                            </div>
+                                            <div class="overlay"></div>
+                                        </a>
+                                    </div>
+                                    <div class="text-news">
+                                        <h3 class="news-item-text">
+                                            <a href="" class="text-link">
+                                                Top 10 xe bán chạy nhất thị trường Việt tháng 11/2020: VinFast Fadil tăng trưởng mạnh, vượt Hyundai Accent
+                                            </a>
+                                        </h3>
+                                        <span class="entry-date">13/12/2020</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6 m-12 c-12">
+                            <div class="item-news">
+                                <div class="news">
+                                    <div class="news-item-img">
+                                        <a href="" class="news-img-link">
+                                            <div class="be-opa">
+                                                <img src="//bizweb.dktcdn.net/thumb/large/100/408/016/articles/vinfast-lux-a2-0-oto-com-9-30b9.jpg?v=1607868143570" alt="" class="news-img">
+                                            </div>
+                                            <div class="overlay"></div>
+                                        </a>
+                                    </div>
+                                    <div class="text-news">
+                                        <h3 class="news-item-text">
+                                            <a href="" class="text-link">
+                                                VinFast lập kỷ lục doanh số tháng 11, Fadil vững vàng No.2 toàn thị trường
+                                            </a>
+                                        </h3>
+                                        <span class="entry-date">13/12/2020</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <footer class="footer row no-gutters product">
+                        <div class="col no-gutters l-6 m-12 c-12">
+                            <div class="footer-left">
+                                <h3 class="footer-left-heading">Liên Hệ</h3>
+                                <h4>Mew S</h4>
+                                <p>Địa chỉ: K79/21 Phạm Văn Nghị, Thanh Khê, Đà Nẵng.</p>
+                                <p>Email: <a href="mailto:lvhung.18it3@vku.udn.vn" title="lvhung.18it3@vku.udn.vn">lvhung.18it3@vku.udn.vn</a></p>
+                                <p>Số điện thoại: <a href="tel:0973145020" title="0973145020">0973145020</a></p>
+                                
+                                <div class="footer-column-1">
+                                    <div class="payment-accept">
+                                        <div>
+                                            <img class="first lazy" src="//bizweb.dktcdn.net/100/408/016/themes/792975/assets/payment-1.png?1629712986782" data-src="//bizweb.dktcdn.net/100/408/016/themes/792975/assets/payment-1.png?1629712986782" alt="payment-1">
+                                            
+                                            <img class="lazy" src="//bizweb.dktcdn.net/100/408/016/themes/792975/assets/payment-2.png?1629712986782" data-src="//bizweb.dktcdn.net/100/408/016/themes/792975/assets/payment-2.png?1629712986782" alt="payment-2"> 
+                                            
+                                            
+                                            <img class="lazy" src="//bizweb.dktcdn.net/100/408/016/themes/792975/assets/payment-3.png?1629712986782" data-src="//bizweb.dktcdn.net/100/408/016/themes/792975/assets/payment-3.png?1629712986782" alt="payment-3"> 
+                                            
+                                            
+                                            <img class="lazy" src="//bizweb.dktcdn.net/100/408/016/themes/792975/assets/payment-4.png?1629712986782" data-src="//bizweb.dktcdn.net/100/408/016/themes/792975/assets/payment-4.png?1629712986782" alt="payment-4">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col no-gutters l-6 m-12 c-12">
+                            <div class="footer-right">
+                                <form id="book-form" class="row" action="https://script.google.com/macros/s/AKfycbwXl-n0lB1xtepj7tPHSHxpyy9-7ztBjTooQ8KskMKU8m7LESA/exec">
+                                    <div class="col l-12 form-group">
+                                        <h3 class="font-weight-bold">
+                                            Đăng ký tư vấn
+                                        </h3>
+                                    </div>
+                                    <div class="col l-12 form-group">
+                                        <input type="text" class="form-control" name="Họ tên" placeholder="Họ tên" required="">
+                                    </div>
+                                    <div class="col l-6 form-group">
+                                        <input type="text" class="form-control contact-phone" id="phone" name="Số điện thoại" placeholder="Số điện thoại" required="">
+                                    </div>
+                                    <div class="col l-6 form-group">
+                                        <input type="text" class="form-control" id="mail" name="Địa chỉ Email" placeholder="Địa chỉ Email">
+                                    </div>
+                                    <div class="col l-12 form-group">
+                                        <textarea name="Lời nhắn" placeholder="Lời nhắn" class="form-control" rows="3"></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="book-submit">Đăng ký</button>
+                                        <p class="success d-none m-0">Gửi thành công. Chúng tôi sẽ liên hệ lại cho trong thời gian sớm nhất!</p>	
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row no-gutters bgk">
+		
+		
+                            <div class="coppyright">Bản quyền thuộc về 
+                                <a rel="nofollow noopener" href="https://www.facebook.com/mewtheme/" title="MewTheme" target="_blank">MewTheme</a>
+                                . Cung cấp bởi 
+                                <a href="https://www.sapo.vn/?utm_campaign=cpn:site_khach_hang-plm:footer&amp;utm_source=site_khach_hang&amp;utm_medium=referral&amp;utm_content=fm:text_link-km:-sz:&amp;utm_term=&amp;campaign=site_khach_hang" title="Sapo" target="_blank" rel="nofollow noopener">Sapo</a>.
+                            </div>
+                            
+                            
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    <div onblur="close()" class="mo"></div>
+    <script>
+        var dropDown1 = document.querySelector('.nav-sub-child')
+        var dropDown = document.querySelector('.nav-child')
+        var scrollBar = document.querySelector('.menu-nav')
+        var menuMobile = document.querySelector('.col-menu')
+        var blurMo = document.querySelector('.mo')
+        
+        function dropdown() {
+            if (dropDown.style.display === "none") {
+                dropDown.style.display = "block"
+            } else {
+                dropDown.style.display = "none"
+            }
+        }
+
+        function dropdown1() {
+            if (dropDown1.style.display === "none") {
+                dropDown1.style.display = "block"
+            } else {
+                dropDown1.style.display = "none"
+            }
+        }
+        function scroll() {
+            if(dropDown.style.display === "block" && dropDown1.style.display === "block") {
+                scrollBar.style.overflow = "scroll"
+            } else {
+                scrollBar.style.overflow = "hidden"
+            }
+        }
+        function menumobile() {
+            if (menuMobile.style.display === "none") {
+                menuMobile.style.display = "block"
+                blurMo.style.display = "block"
+            } else {
+                menuMobile.style.display = "none"
+                blurMo.style.display = "none"
+            }
+        }
+        function closeMenu () {
+            menuMobile.style.display = "none"
+            blurMo.style.display = "none"
+        }
+        blurMo.addEventListener('click', closeMenu)
+    </script>
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function currentDiv(n) {
+          showDivs(slideIndex = n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("demo");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" w3-white", "");
+          }
+          x[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " w3-white";
+        }
+    </script>
+</body>
+</html>

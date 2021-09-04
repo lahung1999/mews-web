@@ -1,0 +1,72 @@
+/* Pc */
+@media (min-width: 1024px) {
+    .hide-on-pc {
+        display: none;
+    }
+    .col-menu{
+        display: block !important;
+    }
+}
+/* Mobile & tablet */
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    .col-menu{
+        display: none;
+    }
+    .col-body{
+        margin-left: unset;
+        width: 100%;
+    }
+    .header-tablet-mobile{
+        display: flex;
+    }
+    .mo{
+        position: fixed;
+        display: none;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        z-index: 2;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    .grid{
+        width: 100%;
+    }
+    .menu-nav{
+        margin-top: 0;
+        top: 60px;
+        height: 100%;
+    }
+    @keyframes sideIn {
+        from {
+            top: calc(var(--header-height) / 2);
+            opacity: 0;
+        } to {
+            top: var(--header-height);
+            opacity: 1;
+        }
+    }
+}
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    :root {
+        --header-height: 50px;
+    }
+    .hide-on-tablet {
+        display: none;
+    } 
+}
+
+/* mobile */
+@media (max-width: 739px) {
+    :root {
+        --header-height: 54px;
+    }
+    .hide-on-mobile {
+        display: none;
+    }
+}
